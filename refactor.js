@@ -344,7 +344,7 @@ var callLater = function(timeout, callback) {
     setTimeout(callback, timeout);
   } else if (typeOf timeout != "number") {
     callback = timeout;
-    setTimeout(callback, 1000);
+    setTimeout(callback, 2000);
   }
 };
 
