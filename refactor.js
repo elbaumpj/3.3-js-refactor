@@ -285,8 +285,18 @@ var accelerate = function(amount) {
 };
 
 // Put your answer below -------------------------
+// As is, the function returns NaN because in the body, the number zero is being added so some unspecified thing.
+// When a mathmatical operator is called, it is looking for a number. If no number is given, NaN is returned because you can't add a number to nothing.
 
+var speed = 0;
 
+var accelerate = function(amount) {
+  if(amount) {
+    speed += amount;
+  } else {
+    speed += 1;
+  }
+};
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
