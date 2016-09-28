@@ -83,6 +83,13 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
+/*
+My answer is [c]: z then y.
+When the browser loads, it sets the value of letter to "x".
+Then, the browser calls the setTimeout function, which logs "The letter is y".
+However, because the function that logs y is within setTimeout, there is a delay to y being logged.
+Because setTimeout fires every 1 millisecond, that slight delay allows z to be logged before y.
+*/
 
 // -----------------------------------------------
 
