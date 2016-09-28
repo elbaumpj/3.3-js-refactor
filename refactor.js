@@ -152,7 +152,7 @@ var spanishColor = function(colorName) {
   return colors[colorName.toLowerCase()];
 };
 
-console.log(spanishColor("rojo")); //test 
+console.log(spanishColor("rojo")); //test
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -168,7 +168,8 @@ console.log(spanishColor("rojo")); //test
 var foo = "bar";
 
 // Put your answer below -------------------------
-
+var foo;
+foo = "bar";
 
 // -----------------------------------------------
 
