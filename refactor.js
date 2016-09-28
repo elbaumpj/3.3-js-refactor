@@ -338,7 +338,15 @@ var callLater = function(timeout, callback) {
 };
 
 // Put your answer below -------------------------
-
+//tackled this one together with Rene--he figured out line 346...brilliant stuff!
+var callLater = function(timeout, callback) {
+  if(typeOf timeout == "number") {
+    setTimeout(callback, timeout);
+  } else if (typeOf timeout != "number") {
+    callback = timeout;
+    setTimeout(callback, 1000);
+  }
+};
 
 // -----------------------------------------------
 
