@@ -1,2 +1,2 @@
 #3.3-js-refactor
-* This assignment was completed during Week 3 at The Iron Yard as part of continuing to learn about JavaScript. This assignment's purpose was to help students understand anonymous functions, callbacks, objects and method chaining. This assignment was a series of functions or other chunks of code that needed refactoring. Click on the exercises.js file to see how I tackled these problems or clone the repo if you'd like to have the code locally. 
+* This project was to help me practice using anonymous functions, callbacks, objects and method chaining. Click on the exercises.js file to see how I tackled these problems or clone the repo if you'd like to have the code locally. 
